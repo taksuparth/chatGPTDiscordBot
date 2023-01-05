@@ -1,0 +1,25 @@
+{
+  "name": "chatgptdiscordbot",
+  "version": "1.0.0",
+  "description": "Simple try out bot which connects chatGPT with discord server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taksuparth/chatGPTDiscordBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taksuparth/chatGPTDiscordBot/issues"
+  },
+  "homepage": "https://github.com/taksuparth/chatGPTDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}
